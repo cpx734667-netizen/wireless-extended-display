@@ -1,6 +1,5 @@
 package io.github.jqssun.airplay.mirror
 
-import android.app.Activity
 import android.content.Context
 import android.hardware.display.DisplayManager
 import android.hardware.display.VirtualDisplay
