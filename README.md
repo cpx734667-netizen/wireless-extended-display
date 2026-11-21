@@ -23,7 +23,7 @@
 | iPhone / iPad 投屏 | 系统「屏幕镜像」 | 安卓 App | AirPlay / RAOP，免装 iPhone App |
 | Mac 投屏 / 扩展屏 | macOS App | 安卓 App | 自有 `WXESMIRROR` 协议，TCP 9000 |
 | Windows 投屏 | Python 脚本 | 安卓 App | 同一协议，`gdigrab` + libx264 |
-| 安卓投到 Mac | 安卓 App | macOS App | 安卓录屏 + H.264 |
+| 安卓投到 Mac | 安卓 App（发布 APK 内置） | macOS App | 安卓录屏 + H.264；源码含 `MirrorSender` |
 | 浏览器看画面 | 任意 WXES 发送端 | 网页桥 | WebCodecs 解码 |
 | 反向控制 | 接收端 | 发送端 | 鼠标/键盘/触摸，跨 Mac / Windows / Android |
 | 被控制 | 发送端 | 接收端 | 让对方控制本机鼠标键盘 |
