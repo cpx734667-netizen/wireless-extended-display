@@ -55,6 +55,7 @@
 > （可能需要登录；建议优先用 GitHub Releases 的 v1.6）
 >
 > APK 是作者签名，和自行构建的包签名不同，覆盖安装前请先卸载旧版。
+> APK 安装后系统信息可能显示 `1.3.7`（原构建的 versionName），功能对应本 Release v1.6。
 > macOS 包是 ad-hoc 签名、未公证，首次打开需右键 → 打开；当前 DMG 为 Apple Silicon（arm64），Intel 请从源码构建。
 
 ---
