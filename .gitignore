@@ -1,0 +1,29 @@
+# Build outputs
+dist/
+mac/build/
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/local.properties
+android/captures/
+*.apk
+*.aab
+*.dmg
+*.ipa
+
+# Apple
+.DS_Store
+*.xcuserstate
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+*.swp

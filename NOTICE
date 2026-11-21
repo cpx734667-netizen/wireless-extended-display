@@ -1,0 +1,52 @@
+# NOTICE
+
+## 本项目
+
+无线扩展屏（Wireless Extended Display）
+Copyright (C) 2026 cpx734667-netizen
+
+以 GNU General Public License v3.0 发布，完整条款见 `LICENSE`。
+
+## 第三方组件
+
+### Android AirPlay 接收器
+
+- 项目：jqssun/android-airplay-server
+- 作者：jqssun 及贡献者
+- 许可证：GNU GPL v3.0
+- 来源：https://github.com/jqssun/android-airplay-server
+- 说明：`android/` 目录基于该项目；`app/src/main/cpp/third_party/UxPlay`
+  为其子模块。发布 APK 中包含该项目的二进制代码。
+
+### UxPlay
+
+- 项目：FDH2/UxPlay
+- 许可证：GNU GPL v3.0
+- 来源：https://github.com/FDH2/UxPlay
+- 说明：AirPlay / RAOP / FairPlay / HLS 的 C 实现，通过 JNI 被 Android 端调用。
+
+### FFmpeg
+
+- 项目：FFmpeg
+- 许可证：LGPL-2.1-or-later（部分可选组件为 GPL-2.0-or-later）
+- 来源：https://ffmpeg.org/
+- 说明：macOS App 内置 Homebrew 构建的 ffmpeg 及其依赖 dylib
+  （包含 libx264、libx265 等 GPL 组件），用于屏幕采集与 H.264 编码。
+  对应源代码可从 https://ffmpeg.org/download.html 获取；
+  构建配置见 `mac/scripts/package_ffmpeg.sh` 与 Homebrew formula。
+
+### 其它
+
+- Android Jetpack / Compose / Media3：Apache-2.0
+- Kotlin / Kotlin Coroutines：Apache-2.0
+- Python `websockets`、`pyautogui`、`imageio-ffmpeg`、`Pillow`：各自许可证
+- Apple Frameworks（AppKit / VideoToolbox / CoreMedia / CoreGraphics）：系统组件
+
+## 商标
+
+Apple、AirPlay、iPhone、iPad、macOS、Android 等名称是其各自权利人的商标。
+本项目与 Apple Inc.、Google LLC 无关联，也未获得其背书。
+
+## 无担保
+
+本软件按“原样”提供，不提供任何明示或暗示的担保。使用风险由使用者自行承担。
