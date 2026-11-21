@@ -44,7 +44,7 @@
 | 平台 | 文件 | 大小 | 链接 |
 |---|---|---:|---|
 | Android 7.0+ | `Wireless-Extended-Display-v1.6.apk` | ~42 MB | [**直接下载 APK**](https://github.com/cpx734667-netizen/wireless-extended-display/releases/download/v1.6/Wireless-Extended-Display-v1.6.apk) |
-| macOS 13+（arm64） | `Wireless-Extended-Display-1.1.0-macOS.dmg` | ~18 MB | [**直接下载 DMG**](https://github.com/cpx734667-netizen/wireless-extended-display/releases/download/v1.6/Wireless-Extended-Display-1.1.0-macOS.dmg) |
+| macOS 13+（arm64） | `Wireless-Extended-Display-1.1.0-macOS.dmg` | ~19 MB | [**直接下载 DMG**](https://github.com/cpx734667-netizen/wireless-extended-display/releases/download/v1.6/Wireless-Extended-Display-1.1.0-macOS.dmg) |
 | Windows | `wxes-windows-sender.zip` | ~10 KB | [下载 Windows 发送端](https://github.com/cpx734667-netizen/wireless-extended-display/releases/download/v1.6/wxes-windows-sender.zip) |
 
 所有版本：[GitHub Releases](https://github.com/cpx734667-netizen/wireless-extended-display/releases/latest) ·
